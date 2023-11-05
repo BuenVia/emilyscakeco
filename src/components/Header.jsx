@@ -5,7 +5,7 @@ const Header = () => {
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">Emily's Blooming Cake Company</a>
                     <div className="logo">
-                        <img src="./assets/logo.jpg" className="logo_img"></img>
+                        <img src="./assets/logo.jpg" className="logo_img" alt="emilysbloomingcakecompany"></img>
                     </div>
                 </div>
             </nav>
