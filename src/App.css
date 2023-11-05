@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Quicksand&display=swap');
 
+:root {
+  --clr-one: #EEC5C5;
+  --clr-two: #FCE0E6;
+  --clr-three: #F9B1C6;
+  --clr-four: #FE97BC;
+  --clr-five: #F5B6F5;
+  --clr-six: #C0C1A4;
+  --clr-seven: #ADB1A8;
+}
+
 *, *::after, *::before {
   padding: 0;
   margin: 0;
@@ -12,6 +22,7 @@ body, html {
   font-family: 'Quicksand', sans-serif;
 }
 
+/*Holding Site*/
 .bg-image {
   background-image: url("../public/assets/cupcake.jpg");
 
@@ -39,4 +50,56 @@ body, html {
   width: 80%;
   padding: 20px;
   text-align: center;
+}
+
+/*Main Site*/
+.navbar {
+  display: flex;
+  height: 200px;
+}
+
+.navbar .logo_img {
+  height: 100px;
+}
+
+.color_two_bg {
+  padding: 5em;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+
+.color_one {
+  height: 14.29;
+  background-color: var(--clr-one);
+}
+
+.color_two {
+  height: 14.29;
+  background-color: var(--clr-two);
+}
+
+.color_three {
+  height: 14.29;
+  background-color: var(--clr-three);
+}
+
+.color_four {
+  height: 14.29;
+  background-color: var(--clr-four);
+}
+
+.color_five {
+  height: 14.29;
+  background-color: var(--clr-five);
+}
+
+.color_six {
+  height: 14.29;
+  background-color: var(--clr-six);
+}
+
+.color_seven {
+  height: 14.29;
+  background-color: var(--clr-seven);
 }
